@@ -1,16 +1,12 @@
 ---
-title: 指南
+title: Гайд
 icon: lightbulb
 ---
 
-## 功能亮点
-
 ### Bar
 
-- [baz](bar/baz.md)
-- ...
+Вот
 
 ### Foo
 
-- [ray](foo/ray.md)
-- ...
+Ну да

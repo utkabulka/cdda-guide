@@ -1,34 +1,34 @@
 ---
 home: true
 icon: home
-title: 项目主页
+title: Главная
 heroImage: /logo.svg
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
-heroText: 项目名称
-tagline: 你可以在这里放置或是整个项目的描述。
+heroText: Project name
+tagline: You can place the description of the project here.
 actions:
-  - text: 使用指南
+  - text: How to Use
     icon: lightbulb
     link: ./demo/
     type: primary
 
-  - text: 文档
+  - text: Docs
     link: ./guide/
 
 highlights:
-  - header: 易于安装
+  - header: Easy to install
     image: /assets/image/box.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
     highlights:
-      - title: 运行 <code>pnpm create vuepress-theme-hope hope-project</code> 以创建一个新的主题项目。
-      - title: 在已有项目根目录下运行 <code>pnpm create vuepress-theme-hope add .</code> 以在项目中添加主题。
+      - title: Run <code>pnpm create vuepress-theme-hope hope-project</code> to create a new project with this theme.
+      - title: Run <code>pnpm create vuepress-theme-hope add .</code> in your project root to create a new project with this theme.
 
-  - header: 在 Markdown 中添加你想要的内容
-    description: 我们扩展了标准的 CommonMark 规范，为你添加了成吨功能。
+  - header: Add things you want in markdown
+    description: We extended the standard commonMark specification and added tons of new features for you.
     image: /assets/image/markdown.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
@@ -36,240 +36,240 @@ highlights:
       background-repeat: repeat
       background-size: initial
     features:
-      - title: 链接检查
+      - title: Links Check
         icon: clipboard-check
-        details: 检查 Markdown 链接
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/others.html#link-check
+        details: Check markdown links
+        link: https://theme-hope.vuejs.press/guide/markdown/others.html#link-check
 
-      - title: 提示容器支持
+      - title: Hint box
         icon: box-archive
-        details: 用样式装饰 Markdown 内容
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/hint.html
+        details: Decorate Markdown content with styles
+        link: https://theme-hope.vuejs.press/guide/markdown/hint.html
 
-      - title: GFM 警告
+      - title: GFM alerts
         icon: bell
-        details: GFM 风格的警告容器
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/alert.html
+        details: GFM alert box
+        link: https://theme-hope.vuejs.press/guide/markdown/alert.html
 
-      - title: 选项卡
+      - title: Tabs
         icon: table-columns
-        details: 使用选项卡对相似内容进行分组
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/tabs.html
+        details: Group similar content with tabs and switch them together
+        link: https://theme-hope.vuejs.press/guide/markdown/tabs.html
 
-      - title: 代码组
+      - title: Code Tabs
         icon: code
-        details: 使用选项卡对相似代码进行分组
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/code-tabs.html
+        details: Group similar codes with tabs
+        link: https://theme-hope.vuejs.press/guide/markdown/code-tabs.html
 
-      - title: 自定义对齐支持
+      - title: Custom Align
         icon: align-center
-        details: 让你在 Markdown 中对段落进行对齐
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/align.html
+        details: Let you decide to align paragraphs in the way you like
+        link: https://theme-hope.vuejs.press/guide/markdown/align.html
 
-      - title: 自定义属性支持
+      - title: Attrs support
         icon: code
-        details: 让你为 Markdown 元素添加属性
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/attrs.html
+        details: Allow you to add attributes for Markdown content
+        link: https://theme-hope.vuejs.press/guide/markdown/attrs.html
 
-      - title: 上下角标支持
+      - title: Superscript and subscript support
         icon: superscript
-        details: 你的 Markdown 现在将支持上下角标
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/sup-sub.html
+        details: Your Markdown now support superscript and subscript
+        link: https://theme-hope.vuejs.press/guide/markdown/sup-sub.html
 
-      - title: 脚注
+      - title: Footnote support
         icon: quote-left
-        details: 你的 Markdown 现在将支持脚注
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/footnote.html
+        details: Your Markdown now support footnotes
+        link: https://theme-hope.vuejs.press/guide/markdown/footnote.html
 
-      - title: 标记支持
+      - title: Mark Support
         icon: highlighter
-        details: 让你在 Markdown 中对词句进行标记
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/mark.html
+        details: Mark words and sentences in Markdown
+        link: https://theme-hope.vuejs.press/guide/markdown/mark.html
 
-      - title: 任务列表
+      - title: Tasklist Support
         icon: square-check
-        details: 在 Markdown 中使用任务列表
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/tasklist.html
+        details: Use tasklist in Markdown
+        link: https://theme-hope.vuejs.press/guide/markdown/tasklist.html
 
-      - title: 图片语法
+      - title: image syntax
         icon: image
-        details: 使用改进的语法指定图片大小与颜色模式
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/image.html
+        details: improve syntax to specify size and color scheme
+        link: https://theme-hope.vuejs.press/guide/markdown/image.html
 
-      - title: 组件支持
+      - title: Component Support
         icon: puzzle-piece
-        details: 在 Markdown 中轻松插入组件
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/component.html
+        details: Easily insert components in Markdown
+        link: https://theme-hope.vuejs.press/guide/markdown/component.html
 
-      - title: 图表支持
+      - title: Chart Support
         icon: chart-simple
-        details: 在 Markdown 中展示图表
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/chartjs.html
+        details: Display charts in Markdown
+        link: https://theme-hope.vuejs.press/guide/markdown/chartjs.html
 
-      - title: 流程图支持
+      - title: Flowchart Support
         icon: route
-        details: 可以在 Markdown 中直接写出流程图
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/flowchart.html
+        details: Create your flowchart in Markdown
+        link: https://theme-hope.vuejs.press/guide/markdown/flowchart.html
 
-      - title: Mermaid 支持
+      - title: Mermaid Support
         icon: chart-pie
-        details: 可以在 Markdown 中添加 Mermaid 图例
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/mermaid.html
+        details: Add mermaid diagram in Markdown
+        link: https://theme-hope.vuejs.press/guide/markdown/mermaid.html
 
-      - title: Tex 支持
+      - title: Tex Support
         icon: square-root-variable
-        details: Markdown 现在也可以支持 Tex 语法以显示公式
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/tex.html
+        details: Markdown now have Tex Support so you can write your formula
+        link: https://theme-hope.vuejs.press/guide/markdown/tex.html
 
-      - title: 导入文件支持
+      - title: Include snippet Support
         icon: fab fa-markdown
-        details: 将你的文档分段，并在 Markdown 中导入
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/include.html
+        details: split your docs with different parts and import them in Markdown
+        link: https://theme-hope.vuejs.press/guide/markdown/include.html
 
-      - title: 交互演示支持
+      - title: Playground Support
         icon: code
-        details: 你可以在 Markdown 中添加交互演示
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/playground.html
+        details: You can add playground in Markdown files
+        link: https://theme-hope.vuejs.press/guide/markdown/playground.html
 
-      - title: Vue 交互演示支持
+      - title: Vue playground Support
         icon: fab fa-vuejs
-        details: 在交互演示中展示 Vue 组件
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/vue-playground.html
+        details: Show living vue component in playground
+        link: https://theme-hope.vuejs.press/guide/markdown/vue-playground.html
 
-      - title: 代码案例支持
+      - title: Code Demo Support
         icon: laptop-code
-        details: 你可以很方便的插入代码案例
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/demo.html
+        details: You can insert code demo easily
+        link: https://theme-hope.vuejs.press/guide/markdown/demo.html
 
-      - title: 幻灯片支持
+      - title: Presentation Support
         icon: person-chalkboard
-        details: 通过 Reveal.js 在 Markdown 中插入幻灯片
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/revealjs.html
+        details: Insert presentation in Markdown files via Reveal.js
+        link: https://theme-hope.vuejs.press/guide/markdown/revealjs/
 
-  - header: 布局
-    description: 一个带有完整无障碍支持的响应式布局。
+  - header: Improved layouts
+    description: An awesome responsive layout with full a11y support.
     image: /assets/image/layout.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     highlights:
-      - title: 布局增强
+      - title: Layout
         icon: object-group
-        details: 添加路径导航、页脚、改进的导航栏、改进的页面导航等。
-        link: https://theme-hope.vuejs.press/zh/guide/layout/
+        details: Improved navbar, sidebar, page nav and new breadcrumb, footer and toc. We also bring you a brand new homepage.
+        link: https://theme-hope.vuejs.press/guide/layout/
 
-      - title: 深色模式
+      - title: Dark Mode
         icon: circle-half-stroke
-        details: 可以自由切换浅色模式与深色模式
-        link: https://theme-hope.vuejs.press/zh/guide/interface/darkmode.html
+        details: Switch between light and dark modes freely
+        link: https://theme-hope.vuejs.press/guide/interface/darkmode.html
 
-      - title: 主题色切换
+      - title: Customizable Theme Color
         icon: palette
-        details: 支持自定义主题色并允许用户在预设的主题颜色之间切换
-        link: https://theme-hope.vuejs.press/zh/guide/interface/theme-color.html
+        details: Customize theme color
+        link: https://theme-hope.vuejs.press/guide/interface/theme-color.html
 
-      - title: 幻灯片页面
+      - title: Slide Page
         icon: person-chalkboard
-        details: 添加幻灯片页面以显示你喜欢的内容
-        link: https://theme-hope.vuejs.press/zh/guide/layout/slides
+        details: Adding slide pages to display things you like
+        link: https://theme-hope.vuejs.press/guide/layout/slides
 
-      - title: 更多
+      - title: More
         icon: ellipsis
-        details: RTL 布局，打印支持，全局按钮等
-        link: https://theme-hope.vuejs.press/zh/guide/interface/others.html
+        details: RTL layout, print support, fullscreen button, etc.
+        link: https://theme-hope.vuejs.press/guide/interface/others.html
 
-  - header: 新功能
+  - header: New features
     image: /assets/image/features.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/1-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/1-dark.svg
     features:
-      - title: 浏览量与评论
+      - title: Pageviews and Comments
         icon: comment-dots
-        details: 配合 Waline 来开启阅读量统计与评论支持
-        link: https://theme-hope.vuejs.press/zh/guide/feature/comment.html
+        details: Start pageview statistics and comment support with Waline
+        link: https://theme-hope.vuejs.press/guide/feature/comment.html
 
-      - title: 文章信息
+      - title: Article Information
         icon: circle-info
-        details: 为你的文章添加作者、写作日期、预计阅读时间、字数统计等信息
-        link: https://theme-hope.vuejs.press/zh/guide/feature/page-info.html
+        details: Add author, writing date, reading time, word count and other information to your article
+        link: https://theme-hope.vuejs.press/guide/feature/page-info.html
 
-      - title: 文章加密
+      - title: Article Encryption
         icon: lock
-        details: 你可以为你的特定页面或特定目录进行加密，以便陌生人不能随意访问它们
-        link: https://theme-hope.vuejs.press/zh/guide/feature/encrypt.html
+        details: Encrypt you articles based on page links, so that only the one you want could see them
+        link: https://theme-hope.vuejs.press/guide/feature/encrypt.html
 
-      - title: 搜索支持
+      - title: Search
         icon: search
-        details: 支持 docsearch 和基于客户端的搜索
-        link: https://theme-hope.vuejs.press/zh/guide/feature/search.html
+        details: Support docsearch and client search
+        link: https://theme-hope.vuejs.press/guide/feature/search.html
 
-      - title: 代码复制
+      - title: Copy Code Blocks
         icon: copy
-        details: 一键复制代码块中的代码
-        link: https://theme-hope.vuejs.press/zh/guide/feature/copy-code.html
+        details: Copy codes with one click in code blocks
+        link: https://theme-hope.vuejs.press/guide/feature/copy-code.html
 
-      - title: 图片预览
+      - title: Image Preview
         icon: image
-        details: 像相册一样允许你浏览、缩放并分享你的页面图片
-        link: https://theme-hope.vuejs.press/zh/guide/feature/photo-swipe.html
+        details: Support viewing, zooming, sharing your page images like a gallery
+        link: https://theme-hope.vuejs.press/guide/feature/photo-swipe.html
 
-  - header: 博客
-    description: 通过主题创建个人博客
+  - header: Blogging
+    description: Create personal blog with theme
     image: /assets/image/blog.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     highlights:
-      - title: 博客功能
+      - title: Blog features
         icon: blog
-        details: 通过文章的日期、标签和分类展示文章
-        link: https://theme-hope.vuejs.press/zh/guide/blog/intro.html
+        details: Listing your articles with their dates, tags and categories
+        link: https://theme-hope.vuejs.press/guide/blog/intro.html
 
-      - title: 博客主页
-        icon: home
-        details: 全新博客主页
-        link: https://theme-hope.vuejs.press/zh/guide/blog/home.html
+      - title: Blog homepage
+        icon: blog
+        details: New blog homepage
+        link: https://theme-hope.vuejs.press/guide/blog/home.html
 
-      - title: 博主信息
-        icon: home
-        details: 自定义名称、头像、座右铭和社交媒体链接
-        link: https://theme-hope.vuejs.press/zh/guide/blog/blogger.html
+      - title: Blogger info
+        icon: circle-info
+        details: Customize avatar, name, slogan, introduction and social links
+        link: https://theme-hope.vuejs.press/guide/blog/blogger.html
 
-      - title: 时间线
-        icon: home
-        details: 在时间线中浏览和通读博文
-        link: https://theme-hope.vuejs.press/zh/guide/blog/timeline.html
+      - title: Timeline
+        icon: clock
+        details: Read through blog posts in a timeline
+        link: https://theme-hope.vuejs.press/guide/blog/timeline.html
 
-  - header: 高级
-    description: 增强站点与用户体验的高级功能
+  - header: Advanced
+    description: Advanced features to improve site SEO and user experience
     image: /assets/image/advanced.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/4-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/4-dark.svg
     highlights:
-      - title: SEO 增强
+      - title: SEO Enhancement
         icon: dumbbell
-        details: 将最终生成的网页针对搜索引擎进行优化。
-        link: https://theme-hope.vuejs.press/zh/guide/advanced/seo.html
+        details: Optimize pages for search engines
+        link: https://theme-hope.vuejs.press/guide/advanced/seo.html
 
       - title: Sitemap
         icon: sitemap
-        details: 自动为你的网站生成 Sitemap
-        link: https://theme-hope.vuejs.press/zh/guide/advanced/sitemap.html
+        details: Generate a Sitemap for your site
+        link: https://theme-hope.vuejs.press/guide/advanced/sitemap.html
 
-      - title: Feed 支持
+      - title: Feed
         icon: rss
-        details: 生成你的 Feed，并通知你的用户订阅它
-        link: https://theme-hope.vuejs.press/zh/guide/advanced/feed.html
+        details: Generate feed to allow users to subscribe it
+        link: https://theme-hope.vuejs.press/guide/advanced/feed.html
 
-      - title: PWA 支持
+      - title: PWA
         icon: mobile-screen
-        details: 让你的网站更像一个 APP
-        link: https://theme-hope.vuejs.press/zh/guide/advanced/pwa.html
+        details: Make your site more like an APP
+        link: https://theme-hope.vuejs.press/guide/advanced/pwa.html
 
 copyright: false
-footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 © 2019-present Mr.Hope
+footer: Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | MIT Licensed, Copyright © 2019-present Mr.Hope
 ---
 
-这是项目主页的案例。你可以在这里放置你的主体内容。
+This is an example of a project homepage. You can place your main content here.
 
-想要使用此布局，你需要在页面 front matter 中设置 `home: true`。
+To use this layout, you need to set `home: true` in the page front matter.
 
-配置项的相关说明详见 [项目主页配置](https://theme-hope.vuejs.press/zh/guide/layout/home/)。
+For related descriptions of configuration items, please see [Project HomePage Layout Config](https://theme-hope.vuejs.press/guide/layout/home/).

@@ -1,13 +1,13 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { enNavbar, zhNavbar } from "./navbar/index.js";
+import { enNavbar, ruNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "UtkaBulka",
+    url: "https://utkabulka.github.io/",
   },
 
   iconAssets: "fontawesome-with-brands",
@@ -36,11 +36,11 @@ export default hopeTheme({
     },
 
     /**
-     * Chinese locale config
+     * Russian locale config
      */
-    "/zh/": {
+    "/ru/": {
       // navbar
-      navbar: zhNavbar,
+      navbar: ruNavbar,
 
       // sidebar
       sidebar: zhSidebar,
@@ -53,13 +53,6 @@ export default hopeTheme({
       metaLocales: {
         editLink: "在 GitHub 上编辑此页",
       },
-    },
-  },
-
-  encrypt: {
-    config: {
-      "/demo/encrypt.html": ["1234"],
-      "/zh/demo/encrypt.html": ["1234"],
     },
   },
 
