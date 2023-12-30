@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://vuepress-theme-hope-docs-demo.netlify.app/cdda-guide/sitemap.xml
+Sitemap: https://utkabulka.github.io/cdda-guide/sitemap.xml
