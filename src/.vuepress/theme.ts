@@ -1,6 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbar, ruNavbar } from "./navbar/index.js";
-import { enSidebar, zhSidebar } from "./sidebar/index.js";
+import { enSidebar, ruSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
@@ -14,7 +14,7 @@ export default hopeTheme({
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "utkabulka/cdda-guide",
 
   docsDir: "src",
 
@@ -26,7 +26,7 @@ export default hopeTheme({
       // sidebar
       sidebar: enSidebar,
 
-      footer: "Default footer",
+      footer: "Privet",
 
       displayFooter: true,
 
@@ -43,28 +43,28 @@ export default hopeTheme({
       navbar: ruNavbar,
 
       // sidebar
-      sidebar: zhSidebar,
+      sidebar: ruSidebar,
 
-      footer: "默认页脚",
+      footer: "Ну здарова",
 
       displayFooter: true,
 
       // page meta
       metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
+        editLink: "Редактировать страницу на GitHub",
       },
     },
   },
 
   plugins: {
     // You should generate and use your own comment service
-    comment: {
-      provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
-      category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
-    },
+    // comment: {
+    //   provider: "Giscus",
+    //   repo: "vuepress-theme-hope/giscus-discussions",
+    //   repoId: "R_kgDOG_Pt2A",
+    //   category: "Announcements",
+    //   categoryId: "DIC_kwDOG_Pt2M4COD69",
+    // },
 
     // All features are enabled for demo, only preserve features you need here
     mdEnhance: {

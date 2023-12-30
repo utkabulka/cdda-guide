@@ -8,12 +8,12 @@ export default defineUserConfig({
     "/": {
       lang: "en-US",
       title: "C:DDA Guide",
-      description: "A guide for beginners for Cataclysm: Dark Days Ahead",
+      description: "A Cataclysm: Dark Days Ahead guide for beginners",
     },
     "/ru/": {
       lang: "ru-RU",
       title: "C:DDA Гайд",
-      description: "Гайд для начинающих для Cataclysm: Dark Days Ahead",
+      description: "Гайд по Cataclysm: Dark Days Ahead для начинающих",
     },
   },
 

@@ -1,6 +1,6 @@
 ---
-title: Гайд
-icon: lightbulb
+title: Механики
+icon: wrench
 ---
 
 ### Bar

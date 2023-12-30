@@ -2,7 +2,7 @@ import { navbar } from "vuepress-theme-hope";
 
 export const ruNavbar = navbar([
   "/ru/",
-  "/ru/guide/",
+  "/ru/mechanics/",
   {
     text: "Предметы",
     icon: "book",
