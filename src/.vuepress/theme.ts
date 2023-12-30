@@ -3,7 +3,7 @@ import { enNavbar, ruNavbar } from "./navbar/index.js";
 import { enSidebar, ruSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://utkabulka.github.io/",
 
   author: {
     name: "UtkaBulka",
