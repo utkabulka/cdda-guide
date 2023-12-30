@@ -7,13 +7,13 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "en-US",
-      title: "Docs Demo",
-      description: "A docs demo for vuepress-theme-hope",
+      title: "C:DDA Guide",
+      description: "A guide for beginners for Cataclysm: Dark Days Ahead",
     },
     "/ru/": {
       lang: "ru-RU",
-      title: "Русский",
-      description: "vuepress-theme-hope",
+      title: "C:DDA Гайд",
+      description: "Гайд для начинающих для Cataclysm: Dark Days Ahead",
     },
   },
 
