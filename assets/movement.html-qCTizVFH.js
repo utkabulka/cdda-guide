@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as t,c as o,a as c}from"./app-MaxOM7Bd.js";const n={},_=c("p",null,"Опачки!",-1),s=[_];function r(a,m){return t(),o("div",null,s)}const i=e(n,[["render",r],["__file","movement.html.vue"]]);export{i as default};

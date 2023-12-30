@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-x3n3nnut.js";import{o,c as t,a as c}from"./app-MaxOM7Bd.js";const s={},n=c("p",null,"Ага.",-1),r=[n];function _(l,a){return o(),t("div",null,r)}const m=e(s,[["render",_],["__file","controls.html.vue"]]);export{m as default};
